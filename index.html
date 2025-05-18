@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project2</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Google Fonts Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header hidden">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/Logo.png" alt="Logo" class="logo-img" />
+          </a>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Racing</a></li>
+            <li><a href="#">Sports Cars</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Experiences</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Login/Signup</a></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <div class="ham-menu" id="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!--Hero video section-->
+      <section class="hero">
+        <video autoplay muted loop class="hero-video">
+          <source src="assets/media/heroVideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="hero-content">
+          <h1>Ferrari Sports Cars</h1>
+          <p>Start your Engine</p>
+        </div>
+      </section>
+
+      <section class="car-showcase">
+        <div class="showcase-header">
+          <h1>Ferrari - Driven by Passion, Defined by Excellence</h1>
+          <p class="intro-text">
+            The Prancing Horse charges ahead with unparalleled speed, timeless
+            design, and relentless innovation. Experience the pinnacle of
+            performance as Ferrari continues its legacy on the road and the
+            track.
+          </p>
+        </div>
+        <div class="showcase-image">
+          <img
+            src="assets/images/feature-ferrari.png"
+            alt="Ferrari F80"
+            class="fade-in-image"
+          />
+          <div class="scroll-text">
+            <h2>The F80: A Futuristic Look</h2>
+            <p>
+              The F80 has a futuristic look with exposed carbon fiber and a
+              dihedral cross section. The active rear wing can change position
+              to indicate whether the car is focused on style or performance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="racing-teams">
+        <div class="left-content">
+          <p class="year">2024</p>
+          <h1>FERRARI - THE LEGACY OF SPEED</h1>
+          <h2>TEAMS</h2>
+        </div>
+        <div class="right-content">
+          <p>
+            "Born to lead, built to perform—on track or on the road. Ferrari
+            defines excellence in Formula 1, endurance racing, and cutting-edge
+            innovation. Proudly carrying a legacy of world-class performance and
+            timeless design."
+          </p>
+        </div>
+      </section>
+
+      <!--Promo section-->
+      <section class="car-promo">
+        <div class="promo-content">
+          <h1>The new <span>911 GT3 R</span> rennsport.</h1>
+          <p>
+            Not made for the road, not made for racing series regulations. The
+            new 911 GT3 R rennsport. Limited to just 77 units, it is a
+            celebration of the pure joy of racing for those who can truly
+            appreciate the myth of the 911. Built from legacy.
+          </p>
+          <a href="#" class="promo-btn"> &#x279C; Further information </a>
+        </div>
+      </section>
+
+      <section class="image-slider">
+        <div class="grid-container">
+          <div class="image">
+            <img src="assets/images/sliding1.png" alt="Top View Design" />
+          </div>
+          <div class="text">
+            <h2>ACTIVE AERO TAKEN TO THE EXTREME</h2>
+            <p>
+              Active Suspension System. Millimetre-precision in every condition.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-container reverse">
+          <div class="text">
+            <h2>120 degree V6, MGU-K, MGU-H AND ELECTRIC FRONT AXLE</h2>
+            <p>
+              Unprecedented torque and power. Perfect Aerodynamic balance always
+            </p>
+          </div>
+          <div class="image">
+            <img src="assets/images/sliding2.png" alt="Underbody Mechanics" />
+          </div>
+        </div>
+      </section>
+
+      <!--Stats section-->
+      <section class="performance-section slide-up">
+        <h2 class="performance-title">PERFORMANCE</h2>
+        <p class="performance-description">
+          With 1200 horsepower, this is the most powerful road-going Ferrari
+          ever created. 1050 kg of downforce push the car firmly onto the
+          ground.
+        </p>
+        <div class="performance-stats">
+          <div class="stat-item slide-up">
+            <h3>V6</h3>
+            <p>POWERTRAIN</p>
+          </div>
+          <div class="stat-item slide-up">
+            <h3>5.75 <span>s</span></h3>
+            <p>0-200 KM/H</p>
+          </div>
+          <div class="stat-item slide-up">
+            <h3>300 <span>cv/l</span></h3>
+            <p>SPECIFIC POWER OUTPUT</p>
+          </div>
+          <div class="stat-item slide-up">
+            <h3>1200</h3>
+            <p>HORSEPOWER</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ferrari-experience">
+        <div class="experience-content">
+          <h2>Live the Ferrari Lifestyle</h2>
+          <p>
+            Experience Ferrari beyond the wheel. Exclusive events, track days,
+            and luxury experiences await those who dare to dream.
+          </p>
+          <a href="#" class="cta-button">Explore the Lifestyle &#x2794;</a>
+        </div>
+      </section>
+
+      <!--Why Ferrari-->
+      <section class="why-ferrari">
+        <h1>Why Choose Ferrari?</h1>
+        <p>
+          From breathtaking performance to exquisite craftsmanship, Ferrari
+          offers an unparalleled driving experience and lifestyle. Explore the
+          reasons why Ferrari is a symbol of excellence.
+        </p>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <img src="assets/images/icon_crafted.png" alt="Iconic Design" />
+            <h3>Iconic Design</h3>
+            <p>Timeless aesthetics and Italian craftsmanship.</p>
+          </div>
+          <div class="feature-item">
+            <img src="assets/images/icon_speedometer.png" alt="Performance" />
+            <h3>Unmatched Performance</h3>
+            <p>V12 engines and world-class acceleration.</p>
+          </div>
+          <div class="feature-item">
+            <img src="assets/images/cheers.png" alt="Exclusivity" />
+            <h3>Exclusivity</h3>
+            <p>Limited editions that redefine luxury.</p>
+          </div>
+          <div class="feature-item">
+            <img src="assets/images/icon_f1.png" alt="Racing Legacy" />
+            <h3>Racing Legacy</h3>
+            <p>Heritage rooted in Formula 1 and motorsport dominance.</p>
+          </div>
+          <div class="feature-item">
+            <img src="assets/images/icon_gem.png" alt="Luxury" />
+            <h3>Luxury</h3>
+            <p>Exquisite interiors with unparalleled attention to detail.</p>
+          </div>
+          <div class="feature-item">
+            <img src="assets/images/icon_technology.png" alt="Technology" />
+            <h3>Technology</h3>
+            <p>Advanced aerodynamics and hybrid innovations.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ferrari-search">
+        <div class="search-content">
+          <h1>Find Your New or Pre-Owned Ferrari</h1>
+          <p>
+            Making it easy to find your dream Ferrari. Enter your location and
+            browse the best car offers available near you.
+          </p>
+          <form class="search-bar">
+            <input type="text" placeholder="Enter City or ZIP Code" />
+            <button type="submit">&#x1F50E;</button>
+          </form>
+        </div>
+        <div class="image-content">
+          <img src="assets/images/ferrari_find.jpg" alt="Ferrari Cars" />
+        </div>
+      </section>
+
+      <section class="carousel">
+        <h2 class="carousel-title">Race Cars</h2>
+        <div class="carousel-container">
+          <div class="carousel-item">
+            <img src="assets/images/racecar1.png" alt="Porsche 99X Electric" />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari P80/C</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/racecar2.png" alt="911 GT3 R" />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>2008 Ferrari FXX Evoluzione</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/racecar3.png" alt="The Porsche 963" />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>2009 Ferrari 599XX</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/racecar4.png"
+              alt="718 Cayman GT4 RS Clubsport"
+            />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari F2003-GA</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/racecar5.jpg"
+              alt="718 Cayman GT4 RS Clubsport"
+            />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari F60</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/racecar6.jpg"
+              alt="718 Cayman GT4 RS Clubsport"
+            />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari 150° Italia</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/racecar7.jpg"
+              alt="718 Cayman GT4 RS Clubsport"
+            />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari F138</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/racecar8.jpg"
+              alt="718 Cayman GT4 RS Clubsport"
+            />
+            <div class="carousel-text">
+              <p>Cars</p>
+              <h3>Ferrari F14 T</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-button prev">&#10094;</button>
+        <button class="carousel-button next">&#10095;</button>
+      </section>
+
+      <!--Lagacy cars lineup-->
+      <section class="classic-hero-banner">
+        <div class="classic-hero-overlay">
+          <p class="classic-subheading">1940s to 1970s Ferrari Models</p>
+          <h1 class="classic-main-heading">
+            Classic Front-Engined V12 Ferraris
+          </h1>
+          <p class="classic-description">
+            Ferrari has been making V12 grand tourers since the beginning
+          </p>
+        </div>
+      </section>
+
+      <!--Ferrari legacy models-->
+      <section class="ferrari-models">
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 166 Inter.jpg"
+            alt="Ferrari 166 Inter"
+          />
+          <h3>Ferrari 166 Inter</h3>
+          <ul>
+            <li><strong>Years:</strong> 1948 - 1950</li>
+            <li><strong>Production:</strong> 38 units</li>
+            <li><strong>Engine:</strong> 2.0 L Colombo V12</li>
+            <li><strong>Power:</strong> 110 bhp @ 6,000 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> N/A</li>
+            <li><strong>Top Speed:</strong> 106 mph</li>
+          </ul>
+        </div>
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 195 Inter.jpg"
+            alt="Ferrari 195 Inter"
+          />
+          <h3>Ferrari 195 Inter</h3>
+          <ul>
+            <li><strong>Years:</strong> 1950 - 1951</li>
+            <li><strong>Production:</strong> 28 units</li>
+            <li><strong>Engine:</strong> 2.3 L Colombo V12</li>
+            <li><strong>Power:</strong> 130 bhp @ 6,000 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> N/A</li>
+            <li><strong>Top Speed:</strong> 112 mph</li>
+          </ul>
+        </div>
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 212 Inter.jpg"
+            alt="Ferrari 212 Inter"
+          />
+          <h3>Ferrari 212 Inter</h3>
+          <ul>
+            <li><strong>Years:</strong> 1951 - 1952</li>
+            <li><strong>Production:</strong> 82 units</li>
+            <li><strong>Engine:</strong> 2.6 L Colombo V12</li>
+            <li><strong>Power:</strong> 150 bhp @ 6,500 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> N/A</li>
+            <li><strong>Top Speed:</strong> 112 mph</li>
+          </ul>
+        </div>
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 212 Export.jpg"
+            alt="Ferrari 212 Export"
+          />
+          <h3>Ferrari 212 Export</h3>
+          <ul>
+            <li><strong>Years:</strong> 1951 - 1952</li>
+            <li><strong>Production:</strong> 27 units</li>
+            <li><strong>Engine:</strong> 2.6 L Colombo V12</li>
+            <li><strong>Power:</strong> 150 bhp @ 6,500 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> ~9.0 seconds</li>
+            <li><strong>Top Speed:</strong> 115 mph</li>
+          </ul>
+        </div>
+
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 410 Superamerica 3.jpg"
+            alt="Ferrari 212 Export"
+          />
+          <h3>Ferrari 410 Superamerica 3</h3>
+          <ul>
+            <li><strong>Years:</strong> 1958-1959</li>
+            <li><strong>Production:</strong> 35(410 total)</li>
+            <li><strong>Engine:</strong> 5.0 L LamprediV12</li>
+            <li><strong>Power:</strong> 380 bhp@7600 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> ~6.0 seconds</li>
+            <li><strong>Top Speed:</strong> 150 mph</li>
+          </ul>
+        </div>
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 250 Europa.jpg"
+            alt="Ferrari 212 Export"
+          />
+          <h3>Ferrari 250 Europa</h3>
+          <ul>
+            <li><strong>Years:</strong> 1953</li>
+            <li><strong>Production:</strong> 21</li>
+            <li><strong>Engine:</strong> 3.0 L Lampredi V12 V12</li>
+            <li><strong>Power:</strong> 200 bhp @6,300 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> ~5.9 seconds</li>
+            <li><strong>Top Speed:</strong> 135 mph</li>
+          </ul>
+        </div>
+        <div class="model-card">
+          <img
+            src="assets/images/Ferrari 250 Europa GT.jpg"
+            alt="Ferrari 212 Export"
+          />
+          <h3>Ferrari 250 Europa GT</h3>
+          <ul>
+            <li><strong>Years:</strong> 1954</li>
+            <li><strong>Production:</strong> 35 units</li>
+            <li><strong>Engine:</strong> 3.0 Lampredi V12</li>
+            <li><strong>Power:</strong> 193 lb/ft @50000 rpm</li>
+            <li><strong>Torque:</strong> N/A</li>
+            <li><strong>0-60 mph:</strong> ~9.0 seconds</li>
+            <li><strong>Top Speed:</strong> 143 mph</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="button-container">
+          <a href="#" class="custom-button"> &#x2794; View More </a>
+        </div>
+      </section>
+
+      <!--Find ferrari center-->
+      <section class="find-ferrari-center">
+        <div class="content">
+          <h2>Find Your Ferrari Center</h2>
+          <p>
+            A Ferrari Center, and your dream Ferrari vehicle, may be closer than
+            you think. Search our Ferrari Center network for the location
+            closest to you.
+          </p>
+          <a href="#" class="cta-button">Search now</a>
+        </div>
+        <div class="image">
+          <img src="assets/images/ferraricenter.jpeg" alt="Ferrari Center" />
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="form-container">
+          <!-- Signup Form -->
+          <div class="form-box" id="signup-form">
+            <h2>Sign Up</h2>
+            <form id="signupForm" action="#" method="POST">
+              <div class="form-group">
+                <label for="signupEmail">Email:</label>
+                <input
+                  type="email"
+                  id="signupEmail"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <span class="error-message" id="signupEmailError"></span>
+              </div>
+              <div class="form-group">
+                <label for="signupPassword">Password:</label>
+                <input
+                  type="password"
+                  id="signupPassword"
+                  name="password"
+                  placeholder="Enter your password"
+                  required
+                />
+                <span class="error-message" id="signupPasswordError"></span>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="submit-btn">Sign Up</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Login Form -->
+          <div class="form-box" id="login-form">
+            <h2>Login</h2>
+            <form id="loginForm" action="#" method="POST">
+              <div class="form-group">
+                <label for="loginEmail">Email:</label>
+                <input
+                  type="email"
+                  id="loginEmail"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <span class="error-message" id="loginEmailError"></span>
+              </div>
+              <div class="form-group">
+                <label for="loginPassword">Password:</label>
+                <input
+                  type="password"
+                  id="loginPassword"
+                  name="password"
+                  placeholder="Enter your password"
+                  required
+                />
+                <span class="error-message" id="loginPasswordError"></span>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="submit-btn">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- References Section -->
+      <section class="references">
+        <h2>References</h2>
+        <p>
+          Highline Autos. (n.d.). Ferrari F80: Ferrari's new supercar. Retrieved
+          December 8, 2024, from
+          <a
+            href="https://www.highline-autos.com/f80-ferraris-new-supercar/"
+            target="_blank"
+            >https://www.highline-autos.com/f80-ferraris-new-supercar/</a
+          >
+        </p>
+        <p>
+          Car and Driver. (2017, July 7). The greatest Ferraris of all time.
+          Retrieved December 8, 2024, from
+          <a
+            href="https://www.caranddriver.com/features/g15086703/greatest-ferraris-of-all-time/"
+            target="_blank"
+            >https://www.caranddriver.com/features/g15086703/greatest-ferraris-of-all-time/</a
+          >
+        </p>
+        <p>
+          Highline Autos. (n.d.). Ferrari F80: Ferrari's new supercar. Retrieved
+          December 8, 2024, from
+          <a
+            href="https://www.highline-autos.com/f80-ferraris-new-supercar/"
+            target="_blank"
+            >https://www.highline-autos.com/f80-ferraris-new-supercar/</a
+          >
+        </p>
+        <p>
+          YouTube. (2022, August 17). Ferrari interior video [Video]. YouTube.
+          <a
+            href="https://youtu.be/H8Bk4Ow4PAM?si=UgPb3xEhNcR_phio"
+            target="_blank"
+            >https://youtu.be/H8Bk4Ow4PAM?si=UgPb3xEhNcR_phio</a
+          >
+        </p>
+        <p>
+          Supercars.net. (n.d.). Ferrari 410 Superamerica. Retrieved December 8,
+          2024, from
+          <a
+            href="https://www.supercars.net/blog/category/brand/ferrari/ferrari-road-cars/ferrari-america/ferrari-410-superamerica/"
+            target="_blank"
+            >https://www.supercars.net/blog/category/brand/ferrari/ferrari-road-cars/ferrari-america/ferrari-410-superamerica/</a
+          >
+        </p>
+        <p>
+          Supercars.net. (n.d.). 1955 Ferrari 375 America Coupe Speciale
+          gallery. Retrieved December 8, 2024, from
+          <a
+            href="https://www.supercars.net/blog/1955-ferrari-375-america-coupe-speciale-gallery/"
+            target="_blank"
+            >https://www.supercars.net/blog/1955-ferrari-375-america-coupe-speciale-gallery/</a
+          >
+        </p>
+        <p>
+          Supercars.net. (n.d.). Ferrari 250 Berlinetta. Retrieved December 8,
+          2024, from
+          <a
+            href="https://www.supercars.net/blog/category/brand/ferrari/ferrari-road-cars/ferrari-250-berlinetta/"
+            target="_blank"
+            >https://www.supercars.net/blog/category/brand/ferrari/ferrari-road-cars/ferrari-250-berlinetta/</a
+          >
+        </p>
+        <p>
+          Supercars.net. (n.d.). 1957 Ferrari 4.9 Superfast gallery. Retrieved
+          December 8, 2024, from
+          <a
+            href="https://www.supercars.net/blog/1957-ferrari-4-9-superfast-gallery/"
+            target="_blank"
+            >https://www.supercars.net/blog/1957-ferrari-4-9-superfast-gallery/</a
+          >
+        </p>
+        <p>
+          Supercars.net. (n.d.). 1952 Ferrari 342 America gallery. Retrieved
+          December 8, 2024, from
+          <a
+            href="https://www.supercars.net/blog/1952-ferrari-342-america-gallery/"
+            target="_blank"
+            >https://www.supercars.net/blog/1952-ferrari-342-america-gallery/</a
+          >
+        </p>
+        <p>
+          Vectorsmarket15. (n.d.). Icons made by Vectorsmarket15 from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a
+            href="https://www.flaticon.com/authors/vectorsmarket15"
+            target="_blank"
+            >https://www.flaticon.com/authors/vectorsmarket15</a
+          >
+        </p>
+        <p>
+          Didin Jpr. (n.d.). Icons made by Didin Jpr from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.flaticon.com/authors/didin-jpr" target="_blank"
+            >https://www.flaticon.com/authors/didin-jpr</a
+          >
+        </p>
+        <p>
+          Prettycons. (n.d.). Icons made by Prettycons from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.flaticon.com/authors/prettycons" target="_blank"
+            >https://www.flaticon.com/authors/prettycons</a
+          >
+        </p>
+        <p>
+          Rooway J. (n.d.). Icons made by Rooway J from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.flaticon.com/authors/rooway-j" target="_blank"
+            >https://www.flaticon.com/authors/rooway-j</a
+          >
+        </p>
+        <p>
+          Smashicons. (n.d.). Icons made by Smashicons from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.flaticon.com/authors/smashicons" target="_blank"
+            >https://www.flaticon.com/authors/smashicons</a
+          >
+        </p>
+        <p>
+          Freepik. (n.d.). Icons made by Freepik from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.freepik.com" target="_blank"
+            >https://www.freepik.com</a
+          >
+        </p>
+        <p>
+          Freepik. (n.d.). F1 icons created by Freepik from
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+          Retrieved December 8, 2024, from
+          <a href="https://www.flaticon.com/free-icons/f1" target="_blank"
+            >https://www.flaticon.com/free-icons/f1</a
+          >
+        </p>
+        <p>
+          Hommes Studio. (2022, June 5). The new Ferrari lifestyle concept store
+          in Maranello. Retrieved December 8, 2024, from
+          <a
+            href="https://hommes.studio/journal/the-new-ferrari-lifestyle-concept-store-in-maranello/"
+            target="_blank"
+            >https://hommes.studio/journal/the-new-ferrari-lifestyle-concept-store-in-maranello/</a
+          >
+        </p>
+        <p>
+          Pinterest. (2021, September 14). Ferrari Center photo. Retrieved
+          December 8, 2024, from
+          <a
+            href="https://www.pinterest.com/pin/3799980929179851/"
+            target="_blank"
+            >https://www.pinterest.com/pin/3799980929179851/</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <a href="#">Ferrari</a>
+          </div>
+          <p class="footer-description">
+            Ferrari is synonymous with speed, design, and a legacy of
+            excellence. Experience the thrill of driving with Ferrari.
+          </p>
+        </div>
+        <div class="footer-center">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sports Cars</a></li>
+            <li><a href="#">Experiences</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-icon">Instagram</a>
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Bharathi Pandurangan. All rights reserved.</p>
+        <p>6 December 2024</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/toggle.js"></script>
+  </body>
+</html>
